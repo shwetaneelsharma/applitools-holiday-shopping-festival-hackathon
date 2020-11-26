@@ -29,6 +29,15 @@
 
 <a name="demo"></a>
 ## Demonstration
+### PART 1
+|Main Page|Filtered Product Grid|Product details|
+|---------|---------------------|---------------|
+|![Test 1](resources/)||
+
+### PART 2
+
+### PART 3
+
 
 
 <a name="installation"></a>
