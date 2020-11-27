@@ -40,7 +40,7 @@
 ## Prerequisites & Installation
 * An account is created with Applitools. If you don't have one, you can create a free account from [here](https://auth.applitools.com/users/register).  
 * **_Dependencies:_**  
-  - Java 11  
+  - Java 10+ (I have used Java 11)  
   - Maven 3.6.3  
   - Chrome browser. I currently have v87 on my machine.
   - Chromedriver executable
@@ -58,7 +58,9 @@
 <a name="IDEExecution"></a>
 ## Execution (using the IDE)
 1. Import the maven repository in the Eclipse IDE.  
-2. Right click on `testng.xml` -> `Run As -> `TestNG Suite`. 
+2. If needed, change the project compliance and JRE to 10.
+3. Right click on `testng.xml` -> `Run As -> `TestNG Suite`. 
+4. Here is the demo for your convenience ![Importing the project in Eclipse and setting the correct Java compliance](resources/media/importProject.gif)
 
 
 <a name="executionResults"></a>
